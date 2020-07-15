@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------- */
+/* ----------------------------CODE SETTING DEFAULT----------------- */
+/* ---------------------------------------------------------------------- */
+*{
+    font-family: sans-serif, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.main-nav{
+    display: inline-block;
+    list-style: none;
+    margin-left: 500px;
+    margin-top: 7px;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------ */
+/* ----------------------CODE FOOTER------------------- */
+/* ------------------------------------------------------ */
+footer{
+    text-align: center;
+    color: seashell;
+    font-style: italic;
+    background-color: rgba(122, 114, 114, 0.3);
+    padding: 7px;
+}
