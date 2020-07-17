@@ -2,18 +2,35 @@
 /* ----------------------------CODE SETTING DEFAULT----------------- */
 /* ---------------------------------------------------------------------- */
 *{
-    font-family: "Lato", Helvetica, sans-serif;
-    font-size: 20px;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-
-
-.main-nav{
+html{
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
 }
-
-
+/* ------------------------------------------------------ */
+/* ----------------------CODE HEADER------------------- */
+/* ------------------------------------------------------ */
+header{
+    background-image: url(#);
+    /* thêm ảnh background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.logo{
+    width: 500px;
+}
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 
 
