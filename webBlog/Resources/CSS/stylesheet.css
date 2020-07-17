@@ -17,8 +17,7 @@ html{
 /* ----------------------CODE HEADER------------------- */
 /* ------------------------------------------------------ */
 header{
-    background-image: url(#);
-    /* thêm ảnh background */
+    background-image: url(../IMAGE/abstract-art-artistic-background-1103970.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
