@@ -13,26 +13,91 @@ html{
     background-color: #ffffff;
     text-rendering: optimizeLegibility;
 }
+/* ---------------------------------------------------- */
+/* --------------------REUSEABLE COMPONENT--------------- */
+/* ------------------------------------------------------ */
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+h2::after{
+    content: " ";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: rgb(29, 28, 28);
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+section{
+    padding: 50px;
+}
 /* ------------------------------------------------------ */
 /* ----------------------CODE HEADER------------------- */
 /* ------------------------------------------------------ */
 header{
-    background-image: url(../IMAGE/abstract-art-artistic-background-1103970.jpg);
+    background-image: linear-gradient(45deg,rgba(46, 213, 115,0.8) 55%,rgba(123, 237, 159,0.8)), url(../IMAGE/abstract-art-artistic-background-1103970.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed;
 }
 .logo{
     width: 500px;
+    float: left;
+    /* chỉnh margin top left */
 }
+
+.main-nav{
+    float: right;
+    list-style: none;
+    /* chỉnh margin top left */
+}
+
+.main-nav li{
+    text-decoration: none;
+    /* chỉnh margin right */
+}
+
+.main-nav li a{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 110%;
+    font-weight: 700;
+}
+
 .row{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
+.row h1.heading-main-text{
+    position: absolute;
+    transform: translate(-45%,-55%);
+    top: 50%;
+    left: 50%;
+    width: 1140px;
+}
+/* chỉnh chữ ở giữa video 13 */
 
+/* ------------------------------------------------------ */
+/* ----------------------CODE SECTION------------------- */
+/* ------------------------------------------------------ */
 
-
+/* chỉn kích thước ảnh */
+img{
+    width: 90%;
+}
 
 
 /* ------------------------------------------------------ */

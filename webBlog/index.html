@@ -6,16 +6,19 @@
     <title>Web page</title>
     <link rel="stylesheet" href="Fontawesome/css/all.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="Vendor/css/grid.css">
     <link rel="stylesheet" href="Resources/CSS/stylesheet.css">
 </head>
 <body>
     <header>
-        <a href="#"><img class="logo" src="#" alt="Logo"></a>
-        <ul>
-            <li><a href="#">GIỚI THIỆU</a></li>
-            <li><a href="#">DANH MỤC</a></li>
-            <li><a href="#">LIÊN HỆ</a></li>
-        </ul>
+        <a href="index.html"><img class="logo" src="#" alt="Logo"></a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">GIỚI THIỆU</a></li>
+                <li><a href="#">DANH MỤC</a></li>
+                <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
         <nav class="main-nav">
             <ul>
                 <li><a href="#">BÀI VIẾT</a></li>
@@ -24,6 +27,7 @@
                 <li><a href="#">CÁC THUẬT NGỮ</a></li>
             </ul>
         </nav>
+        <div class="clearfix"></div>
         <div class="row">
             <h1 class="heading-main-text">
                 Theo dõi một trong các <br> bài đăng của chúng tôi
@@ -31,5 +35,33 @@
             <!-- thêm ô tìm kiếm -->
         </div>
     </header>
+    <section class="baiviet">
+        <div class="row">
+            <h2>Bài đăng nổi bật</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <img src="Resources/IMAGE/abstract-art-artistic-background-1103970.jpg" alt="Photo">
+                <p class="picture-tittle">
+                    Đây là bài đăng thứ nhất
+                </p>
+                <p><a href="#" class="read-more">đọc tiếp</a></p>
+            </div>
+            <div class="col span-1-of-3">
+                <img src="Resources/IMAGE/nature-sky-sunset-the-mountains-66997.jpg" alt="Photo">
+                <p class="picture-tittle">
+                    Đây là bài đăng thứ hai
+                </p>
+                <p><a href="#" class="read-more">đọc tiếp</a></p>
+            </div>
+            <div class="col span-1-of-3">
+                <img src="Resources/IMAGE/white-green-and-orange-wooden-plank-139321.jpg" alt="Photo">
+                <p class="picture-tittle">
+                    Đây là bài đăng thứ ba
+                </p>
+                <p><a href="#" class="read-more">đọc tiếp</a></p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
