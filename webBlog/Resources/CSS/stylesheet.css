@@ -61,20 +61,21 @@ header{
 
 .main-nav{
     float: right;
-    list-style: none;
     /* chỉnh margin top left */
 }
 
 .main-nav li{
-    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
     /* chỉnh margin right */
 }
 
 .main-nav li a{
-    display: inline-block;
     color: #ffffff;
-    font-size: 110%;
-    font-weight: 700;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 500;
 }
 
 .row{
