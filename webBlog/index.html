@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web page</title>
+    <link rel="stylesheet" href="Fontawesome/css/all.css">
     <link rel="stylesheet" href="Fontawesome/css/all.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="Vendor/css/grid.css">
@@ -33,7 +34,12 @@
             <h1 class="heading-main-text">
                 Theo dõi một trong các <br> bài đăng của chúng tôi
             </h1>
-            <!-- thêm ô tìm kiếm -->
+            <form class="d-flex w-100 position-relative flex-column flex-md-row align-items-center" method="get" action="theKsteam.net">
+                <input class="search-header" id="s" name="s" type="text" value=" ">
+                <i class="search-header_input-icon"></i>
+                <button type="submit" class="h-button-red h-button-primary--small button text-white mt-4 mt-md-0 d-flex ml-md-4">Tìm kiếm</button>
+            </form>
+            
         </div>
     </header>
     <section class="baiviet">
