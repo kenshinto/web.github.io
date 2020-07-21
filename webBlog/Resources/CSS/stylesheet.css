@@ -121,6 +121,7 @@ button{
 /* ------------------------------------------------------ */
 
 /* chỉn kích thước ảnh */
+/* cần sửa lại vì nó chỉnh ảnh luôn của logo */
 img{
     width: 90%;
     border-radius: 20px;
@@ -135,7 +136,14 @@ img{
     color: aliceblue;
     transform: translate(-50%,-40%);
 }
-
+.baiviet{
+    background-color: white;
+    height: 500px;
+}
+.danhsachbaiviet{
+    background-color: rgba(241, 242, 246,1.0);
+    height: ;
+}
 
 /* ------------------------------------------------------ */
 /* ----------------------CODE FOOTER------------------- */
