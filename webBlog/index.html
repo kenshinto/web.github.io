@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web page</title>
-    <link rel="stylesheet" href="Fontawesome/css/all.css">
     <link rel="stylesheet" href="Fontawesome/css/all.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="Vendor/css/grid.css">
@@ -14,27 +13,55 @@
 
 <body>
     <header>
-        <a href="/"><img class="logo" src="#" alt="Logo"></a>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#">GIỚI THIỆU</a></li>
-                <li><a href="#">DANH MỤC</a></li>
-                <li><a href="#">LIÊN HỆ</a></li>
-                <li data-v-fedd5d88="" class="mr-15 ml-15">
-                    <div data-v-570539a0="" data-v-fedd5d88="" class="position-relative"><a data-v-570539a0=""
-                            id="hgr-tutorials-h-menu-item-cpanel-login" href="/dang-nhap-cpanel"
-                            class="hover-opacity-6 wm-login login-style"><i data-v-570539a0=""
-                                class="material-icons fs-14 pr-10"> lock </i>Đăng nhập
-                            <!----></a>
-                    </div>
-                </li>
-            </ul>
-            <div data-v-fedd5d88="" class="ml-xl-auto ml-0 d-xl-none d-flex order-4 order-xl-3"><i data-v-fedd5d88="" class="material-icons mb-0 cursor-pointer hover-opacity-6 d-xl-none">
-                menu
-            </i> <!----></div>
+        <div class="navigation">
+            <a href="/"><img class="Logo" src="#" alt="Logo"></a>
+            <div class="main-nav">
+                <ul>
+                    <li><a href="#">DANH MỤC</a>
+                        <!-- <div class="position-relative">
+                            <a class="dropdown-holder"><i class="fas fa-caret-down"></i></a>
+                            <ul class="position-absolute-0bg-white dropdown-holder transform-none border-radius-3">
+                                <li>
+                                    <a id="file-documents-controler" href="/" class="mb-20 d-flex align-items-center menu-text transition-3 scale-hover-1-05 transition-3">
+                                        <i class="fal fa-ballot"></i>
+                                        <!-- used febfonts pro-fa-light-300-5.5.0  -->
+                                        <!-- <div class="d-flex flex-column">
+                                            <p class="button fw-700 text-light-black">Chia sẻ tài liệu</p>
+                                            <p class="label text-content-grey">IT</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="hgr-tutorials-h-menu-item-cloud-hosting" href="/" class="mb-20 d-flex align-items-center menu-text transition-3 scale-hover-1-05 transition-3">
+                                        <i class="far fa-clone"></i>
+                                        <!-- used febfonts pro-fa-light-300-5.5.0  -->
+                                        <!-- <div class="d-flex flex-column">
+                                            <p class="button fw-700 text-light-black">Phần mềm</p>
+                                            <p class="label text-content-grey">Cho máy tính</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> --> 
+                    </li>
+                    <li><a href="#">GIỚI THIỆU</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li class="Login">
+                        <div class="position-relative">
+                            <!-- cái này là code phần đăng nhập vào hệ thống bằng cpanel, cần chỉnh lại khi học tới JavaScripts-->
+                            <a id="menu-item-cpanel-login" href="/dang-nhap-cpanel" class="hover-opacity-login-style"><i
+                                    class="fas fa-lock-alt"></i>Đăng nhập</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-navigation-media-screen">
+                <i class="far fa-bars"></i>
+            </div>
         </nav>
-        <div class="clearfix"></div>
-        <nav class="main-nav">
+        </div>
+        <!-- <div class="clearfix"></div> -->
+        <nav class="submenu-nav">
             <ul>
                 <li><a href="#">BÀI VIẾT</a></li>
                 <li><a href="#">THỦ THUẬT PHẦN MỀM</a></li>

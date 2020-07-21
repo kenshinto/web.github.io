@@ -41,7 +41,7 @@ h2::after{
 }
 
 section{
-    padding: 50px;
+    /* padding: 50px; */
 }
 /* ------------------------------------------------------ */
 /* ----------------------CODE HEADER------------------- */
@@ -58,25 +58,43 @@ header{
     float: left;
     /* chỉnh margin top left */
 }
-
-.main-nav{
+.navigation{
+    float: right;
+    width: 100%;
+    background: rgb(19, 87, 41);
+    /* chỉnh margin top left */
+}
+.navigation li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.navigation li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 500;
+}
+.submenu-nav{
     float: right;
     width: 100%;
     background: rgb(19, 87, 41);
     /* chỉnh margin top left */
 }
 
-.main-nav li{
+.submenu-nav li{
     list-style-type: none;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 0px;
     /* chỉnh margin right */
 }
 
-.main-nav li a{
+.submenu-nav li a{
     color: #ffffff;
     text-decoration: none;
     font-size: 90%;
+    margin: 0px 100px;
+    padding-left: 10px;
     font-weight: 500;
 }
 
