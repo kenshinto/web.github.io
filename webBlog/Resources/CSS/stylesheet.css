@@ -39,10 +39,10 @@ h2::after{
     margin: 0 auto;
     margin-top: 5px;
 }
-
 section{
-    /* padding: 50px; */
+    padding: 50px;
 }
+
 /* ------------------------------------------------------ */
 /* ----------------------CODE HEADER------------------- */
 /* ------------------------------------------------------ */
@@ -53,23 +53,29 @@ header{
     height: 80vh;
     background-attachment: fixed;
 }
+
+/* ----------------------------------------------------------------------- */
+/* ----------------------------- CODE NAVIGATION ------------------- */
+/* -------------------------------------------------------------------- */
 .logo{
-    width: 50px;
+    width: 10px;
     float: left;
     /* chỉnh margin top left */
 }
-.navigation{
+.main-nav ul.tittle{
+    display: inline-block;
+    width: 90%;
     float: right;
-    width: 100%;
+    margin-left: 10px;
     background: rgb(19, 87, 41);
     /* chỉnh margin top left */
 }
-.navigation li{
+.main-nav li{
     list-style-type: none;
     display: inline-block;
     margin-right: 50px;
 }
-.navigation li a{
+.main-nav li a{
     color: #ffffff;
     text-decoration: none;
     font-size: 90%;
