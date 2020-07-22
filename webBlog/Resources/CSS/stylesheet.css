@@ -12,6 +12,7 @@ html{
     color: #5a5a5a;
     background-color: #ffffff;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 /* ---------------------------------------------------- */
 /* --------------------REUSEABLE COMPONENT--------------- */
@@ -53,54 +54,62 @@ header{
     height: 80vh;
     background-attachment: fixed;
 }
+.Logo{
+    /* padding-top: 20px; */
+    float: left;
+    margin-top: 5px;
+    margin-left: 70px;
+    height: 100px;
+    width: fixed;
+    /* chỉnh margin top left */
+}
 
 /* ----------------------------------------------------------------------- */
 /* ----------------------------- CODE NAVIGATION ------------------- */
 /* -------------------------------------------------------------------- */
-.logo{
-    width: 10px;
-    float: left;
-    /* chỉnh margin top left */
-}
-.main-nav ul.tittle{
-    display: inline-block;
-    width: 90%;
+
+.main-nav ul{
     float: right;
-    margin-left: 10px;
-    background: rgb(19, 87, 41);
+    margin-right: 600px;
+    margin-top: 30px;
     /* chỉnh margin top left */
 }
-.main-nav li{
-    list-style-type: none;
+.main-nav ul li{
     display: inline-block;
-    margin-right: 50px;
+    list-style-type: none;
+    margin-right: 60px;
 }
-.main-nav li a{
+.main-nav ul li a{
     color: #ffffff;
     text-decoration: none;
     font-size: 90%;
     font-weight: 500;
 }
+
+
 .submenu-nav{
     float: right;
     width: 100%;
-    background: rgb(19, 87, 41);
-    /* chỉnh margin top left */
+    background: rgb(13, 138, 53);
 }
 
+.submenu-nav ul{
+    margin-left: 300px;
+    margin-top: 5px;
+    /* chỉnh margin top left */
+}
 .submenu-nav li{
+    padding-top: 20px;
+    padding-bottom: 20px;
     list-style-type: none;
     display: inline-block;
-    margin-right: 0px;
-    /* chỉnh margin right */
 }
 
 .submenu-nav li a{
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-size: 90%;
-    margin: 0px 100px;
-    padding-left: 10px;
+    margin-left: 50px;
     font-weight: 500;
 }
 
@@ -146,13 +155,13 @@ button{
 
 /* chỉn kích thước ảnh */
 /* cần sửa lại vì nó chỉnh ảnh luôn của logo */
-img{
+/* img{
     width: 90%;
     border-radius: 20px;
     border: 4px solid #5a5a5a;
     box-shadow: 0px 5px 15px 5px #5a5a5a;
     filter: blur(1px);
-}
+} */
 .picture-tittle{
     position: absolute;
     top: 50%;
