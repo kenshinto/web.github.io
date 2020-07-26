@@ -26,7 +26,7 @@ html{
 h2{
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #edf5e1;
+    color: #fff;
     font-size: 100%;
     font-weight: 700;
     text-align: center;
@@ -48,7 +48,7 @@ h2::after{
 /* ----------------------CODE HEADER------------------- */
 /* ------------------------------------------------------ */
 header{
-    background-image: linear-gradient(45deg,rgb(92,219,149) 55%,rgb(142,228,175)), url(../IMAGE/abstract-art-artistic-background-1103970.jpg);
+    background-image: linear-gradient(35deg,rgba(79,58,183,0.9) 45% ,rgba(132, 59, 173,1.0)), url(../IMAGE/abstract-art-artistic-background-1103970.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -68,6 +68,11 @@ header{
     width: fixed;
     /* chỉnh margin top left */
 }
+.main-nav{
+    background: #6747c7;
+    position: fixed;
+    /* padding: 20px 0; */
+}
 .main-nav ul{
     float: right;
     margin-right: 300px;
@@ -78,9 +83,10 @@ header{
     display: inline-block;
     list-style-type: none;
     margin-right: 60px;
+    
 }
 .main-nav ul li a{
-    color: #05386b;
+    color: #fff;
     text-decoration: none;
     font-size: 90%;
     font-weight: 700;
@@ -90,9 +96,11 @@ header{
 /* ----------------------------- CODE SUBMAIN NAVIGATION ------------------- */
 /* -------------------------------------------------------------------------------------------- */
 .submenu-nav{
-    float: right;
-    width: 100%;
-    background: #05386b;
+    background-color: #4F3AB7;
+    position: relative;
+    top: 68px;
+    margin-bottom: 68px;
+    z-index: 100;
 }
 
 .submenu-nav ul{
@@ -108,7 +116,7 @@ header{
 }
 
 .submenu-nav li a{
-    color: #edf5e1;
+    color: #fff;
     text-decoration: none;
     font-size: 90%;
     margin-left: 50px;
@@ -170,9 +178,10 @@ input {
     height: 18px;
     margin-left: 6.6rem;
     content: " ";
+    color: #212529;
     align-items: center;
     padding: 12px 0px 0px 130px;
-    margin-top: 88px;
+    margin-top: 170px;
 }
 button{
     background-color: #ff4546;
