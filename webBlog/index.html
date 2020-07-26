@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web page</title>
     <link rel="stylesheet" href="Fontawesome/css/all.css" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Vendor/css/grid.css">
     <link rel="stylesheet" href="Resources/CSS/stylesheet.css">
 </head>
@@ -17,6 +17,7 @@
             <a href="/"><img class="Logo" src="/Resources/Image/your-logo.png" alt="Logo"></a>
             <ul>
                 <li><a href="#">DANH MỤC</a>
+                    <i class="fas fa-caret-down"></i>
                     <!-- <div class="position-relative">
                             <a class="dropdown-holder"><i class="fas fa-caret-down"></i></a>
                             <ul class="position-absolute-0bg-white dropdown-holder transform-none border-radius-3">
@@ -48,8 +49,9 @@
                 <li class="Login">
                     <div class="position-relative">
                         <!-- cái này là code phần đăng nhập vào hệ thống bằng cpanel, cần chỉnh lại khi học tới JavaScripts -->
-                        <a id="menu-item-cpanel-login" href="/dang-nhap-cpanel" class="hover-opacity-login-style"><i
-                                class="fas fa-lock-alt"></i>ĐĂNG NHẬP</a>
+                        <a id="menu-item-cpanel-login" href="/dang-nhap-cpanel" class="hover-opacity-login-style">
+                            <i class="fas fa-lock-alt"></i>ĐĂNG NHẬP
+                        </a>
                     </div>
                 </li>
             </ul>
@@ -57,30 +59,29 @@
         <!-- <div class="menu-navigation-media-screen">
                 <i class="far fa-bars"></i>
             </div> -->
-        <div class="clearfix"></div>
+        <!-- <div class="clearfix"></div> -->
         <nav class="submenu-nav">
             <ul>
-                <li><a href="#">BÀI VIẾT</a></li>
-                <li><a href="#">THỦ THUẬT PHẦN MỀM</a></li>
-                <li><a href="#">TÀI LIỆU</a></li>
-                <li><a href="#">CÁC THUẬT NGỮ</a></li>
+                <li><a href="#">BÀI VIẾT</a>
+                    <i class="fas fa-caret-down"></i>
+                </li>
+                <li><a href="#">THỦ THUẬT PHẦN MỀM</a>
+                    <i class="fas fa-caret-down"></i>
+                </li>
+                <li><a href="#">TÀI LIỆU</a>
+                    <i class="fas fa-caret-down"></i>
+                </li>
+                <li><a href="#">THUẬT NGỮ</a></li>
             </ul>
         </nav>
-        <div class="clearfix"></div>
-        <div class="row">
-            <div class="heading-main-text">
-                <h1>
-                    Theo dõi một trong các <br> bài đăng của chúng tôi
-                </h1>
-            </div>
+        <!-- <div class="clearfix"></div> -->
+        <div class="heading-main">
+            <h1>Theo dõi một trong các <br> bài đăng của chúng tôi</h1>
             <form class="form-search-input" method="get" action="TheKsteam.com">
                 <input class="search-header" id="s" name="s" type="text" value=" ">
                 <i class="far fa-search"></i>
-                <button type="submit"
-                    class="h-button-red h-button-primary--small button text-white mt-4 mt-md-0 d-flex ml-md-4">Tìm
-                    kiếm</button>
+                <button type="submit" class="h-button-red h-button-primary--small button text-white mt-4 mt-md-0 d-flex ml-md-4">Tìm kiếm</button>
             </form>
-
         </div>
     </header>
     <!-- <section class="bg-white">
