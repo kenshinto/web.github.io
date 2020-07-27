@@ -213,7 +213,7 @@ h2{
     color: rgb(0, 0, 0);
     font-size: 40px;
     font-weight: 500;
-    margin-left: 20%;
+    margin-left: 22%;
 }
 h2::after{
     content: " ";
@@ -224,22 +224,41 @@ h2::after{
     margin-top: 5px;
 }
 section{
-    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .row{
-    /* display: flex; */
+    margin-top: 40px;
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
-/* chỉn kích thước ảnh */
-/* cần sửa lại vì nó chỉnh ảnh luôn của logo */
-.row .col.span-1-of-3 .height-inherit img{
-    width: 90%;
-    border-radius: 20px;
+.height-inherit img{
+    max-width: 100%;
+    border-radius: 10px;
     border: 2px solid #5a5a5a;
-    box-shadow: #5a5a5a;
-    /* filter: blur(-0.5px); */
-    width: 400px;
-    height: 250px;
+    height: 200px;
 }
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.col.span-1-of-3{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.box-shadow{
+    box-shadow: 5px 1px 5px 1px #838282;
+    filter: blur(-0.3px);
+    border-radius: 10px;
+}
+.height-inherit{
+    height: inherit;
+}
+
 
 
 
