@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web page</title>
+    <title>TheKsteam.com</title>
     <link rel="stylesheet" href="Fontawesome/css/all.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Vendor/css/grid.css">
@@ -16,33 +16,36 @@
         <nav class="main-nav">
             <a href="/"><img class="Logo" src="/Resources/Image/your-logo.png" alt="Logo"></a>
             <ul>
-                <li><a href="#">DANH MỤC</a>
-                    <i class="fas fa-caret-down"></i>
-                    <!-- <div class="position-relative">
-                            <a class="dropdown-holder"><i class="fas fa-caret-down"></i></a>
-                            <ul class="position-absolute-0bg-white dropdown-holder transform-none border-radius-3">
+                <li>
+                    <div class="dropdown">
+                        <a href="/" class="dropdown-btn">DANH MỤC
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            <ul>
                                 <li>
-                                    <a id="file-documents-controler" href="/" class="mb-20 d-flex align-items-center menu-text transition-3 scale-hover-1-05 transition-3">
+                                    <a id="file-documents-controler" href="/">
                                         <i class="fal fa-ballot"></i>
                                         <!-- used febfonts pro-fa-light-300-5.5.0  -->
-                    <!-- <div class="d-flex flex-column">
+                                        <div class="flex-column d-flex label">
                                             <p class="button fw-700 text-light-black">Chia sẻ tài liệu</p>
                                             <p class="label text-content-grey">IT</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a id="hgr-tutorials-h-menu-item-cloud-hosting" href="/" class="mb-20 d-flex align-items-center menu-text transition-3 scale-hover-1-05 transition-3">
+                                    <a id="file-documents-controler" href="/">
                                         <i class="far fa-clone"></i>
                                         <!-- used febfonts pro-fa-light-300-5.5.0  -->
-                    <!-- <div class="d-flex flex-column">
+                                        <div class="flex-column d-flex label">
                                             <p class="button fw-700 text-light-black">Phần mềm</p>
                                             <p class="label text-content-grey">Cho máy tính</p>
                                         </div>
                                     </a>
                                 </li>
                             </ul>
-                        </div>  -->
+                        </div>
+                    </div>
                 </li>
                 <li><a href="#">GIỚI THIỆU</a></li>
                 <li><a href="#">LIÊN HỆ</a></li>
@@ -75,70 +78,82 @@
             </ul>
         </nav>
         <!-- <div class="clearfix"></div> -->
-        <div class="heading-main">
-            <h1>Theo dõi một trong các <br> bài đăng của chúng tôi</h1>
-            <form class="form-search-input" method="get" action="TheKsteam.com">
-                <input class="input-search-header" id="s" name="s" type="text" value=" ">
-                <i class="far fa-search"></i>
-                <button type="submit" class="h-button-red h-button-primary--small button text-white mt-4 mt-md-0 d-flex ml-md-4">Tìm kiếm</button>
-            </form>
+        <div class="search-header">
+            <div class="justify-content-center">
+                <h1>Theo dõi một trong các bài <br>đăng của chúng tôi</h1>
+                <form class="form-search-input" method="get" action="TheKsteam.com">
+                    <input class="input-search-header" id="s" name="s" type="text" value=" ">
+                    <i class="far fa-search"></i>
+                    <button type="submit"
+                        class="h-button-red h-button-primary--small button text-white margin-left-15">Tìm kiếm</button>
+                </form>
+            </div>
         </div>
     </header>
     <section>
         <div class="container">
-            <h2>Bài viết nổi bật</h2>
+            <h2 class="margin-left-15">Bài viết nổi bật</h2>
             <div class="row">
                 <div class="col span-1-of-3">
                     <div class="box-shadow">
                         <a class="height-inherit" href="/link" data-wpel-link="internal">
-                            <img src="Resources/IMAGE/gray-tunnel-207153.jpg" class="object-fit-cover wp-post-image" alt="đây là bài đăng thứ nhất" srcset=" " sizes="(max-width: 640px) 100vw, 640px">
+                            <img src="Resources/IMAGE/gray-tunnel-207153.jpg" class="object-fit-cover wp-post-image"
+                                alt="đây là bài đăng thứ nhất" srcset=" " sizes="(max-width: 640px) 100vw, 640px">
                         </a>
                         <div class="d-flex flex-column h-pt-2 h-pl-3 h-pb-3 h-pr-3">
                             <div class="d-flex justify-content-between h-mb-1">
                                 <p class="label text-content-grey"> 04 Th8 •
-                                    <a class="text-h-primary text-uppercase font-weight-bold links-hover" href="/" data-wpel-link="internal"> DNS </a>
+                                    <a class="text-h-primary text-uppercase font-weight-bold links-hover" href="/"
+                                        data-wpel-link="internal"> DNS </a>
                                 </p>
                             </div>
                             <h3 class="h-mb-3 font-weight-bold height-8rem">
                                 <a href="link" data-wpel-link="internal">đây là bài đăng thứ nhấtdfds fdsfsd fdsfsd</a>
                             </h3>
-                            <a class="subtitle text-h-primary font-weight-bold hover-text-primary-400 transition-all-3" href="/" data-wpel-link="internal"> Đọc thêm → </a>
+                            <a class="subtitle text-h-primary font-weight-bold hover-text-primary-400 transition-all-3"
+                                href="/" data-wpel-link="internal"> Đọc thêm → </a>
                         </div>
                     </div>
                 </div>
                 <div class="col span-1-of-3">
                     <div class="box-shadow">
                         <a class="height-inherit" href="/link" data-wpel-link="internal">
-                            <img src="Resources/IMAGE/home-page-bg.jpg" class="object-fit-cover wp-post-image" alt="đây là bài đăng thứ nhất" srcset=" " sizes="(max-width: 640px) 100vw, 640px">
+                            <img src="Resources/IMAGE/home-page-bg.jpg" class="object-fit-cover wp-post-image"
+                                alt="đây là bài đăng thứ nhất" srcset=" " sizes="(max-width: 640px) 100vw, 640px">
                         </a>
                         <div class="d-flex flex-column h-pt-2 h-pl-3 h-pb-3 h-pr-3">
                             <div class="d-flex justify-content-between h-mb-1">
                                 <p class="label text-content-grey"> 04 Th8 •
-                                    <a class="text-h-primary text-uppercase font-weight-bold links-hover" href="/" data-wpel-link="internal"> DNS </a>
+                                    <a class="text-h-primary text-uppercase font-weight-bold links-hover" href="/"
+                                        data-wpel-link="internal"> DNS </a>
                                 </p>
                             </div>
                             <h3 class="h-mb-3 font-weight-bold height-8rem">
                                 <a href="link" data-wpel-link="internal">đây là bài đăng thứ nhấtdfds fdsfsd fdsfsd</a>
                             </h3>
-                            <a class="subtitle text-h-primary font-weight-bold hover-text-primary-400 transition-all-3" href="/" data-wpel-link="internal"> Đọc thêm → </a>
+                            <a class="subtitle text-h-primary font-weight-bold hover-text-primary-400 transition-all-3"
+                                href="/" data-wpel-link="internal"> Đọc thêm → </a>
                         </div>
                     </div>
                 </div>
                 <div class="col span-1-of-3">
                     <div class="box-shadow">
                         <a class="height-inherit" href="/link" data-wpel-link="internal">
-                            <img src="Resources/IMAGE/your-logo.png" class="object-fit-cover wp-post-image" alt="đây là bài đăng thứ nhất" srcset=" " sizes="(max-width: 640px) 100vw, 640px">
+                            <img src="Resources/IMAGE/your-logo.png" class="object-fit-cover wp-post-image"
+                                alt="đây là bài đăng thứ nhất" srcset=" " sizes="(max-width: 640px) 100vw, 640px">
                         </a>
                         <div class="d-flex flex-column h-pt-2 h-pl-3 h-pb-3 h-pr-3">
                             <div class="d-flex justify-content-between h-mb-1">
                                 <p class="label text-content-grey"> 04 Th8 •
-                                    <a class="text-h-primary text-uppercase font-weight-bold links-hover" href="/" data-wpel-link="internal"> DNS </a>
+                                    <a class="text-h-primary text-uppercase font-weight-bold links-hover" href="/"
+                                        data-wpel-link="internal"> DNS </a>
                                 </p>
                             </div>
                             <h3 class="h-mb-3 font-weight-bold height-8rem">
                                 <a href="link" data-wpel-link="internal">đây là bài đăng thứ nhấtdfds fdsfsd fdsfsd</a>
                             </h3>
-                            <a class="subtitle text-h-primary font-weight-bold hover-text-primary-400 transition-all-3" href="/" data-wpel-link="internal"> Đọc thêm → </a>
+                            <a class="subtitle text-h-primary font-weight-bold hover-text-primary-400 transition-all-3"
+                                href="/" data-wpel-link="internal"> Đọc thêm → </a>
                         </div>
                     </div>
                 </div>
@@ -148,119 +163,199 @@
     <section class="tutorials-list dark">
         <div class="container">
             <h2 class="text-center">Danh sách bài viết</h2>
-            <div class="d-flex">
-                <p class="text-light-black"> Hiển thị 1 - 10 trong số 420 bài hướng dẫn</p>
+            <div class="d-flex justify-content-between">
+                <p class="text-light-black label"> Hiển thị 1 - 10 trong số 420 bài hướng dẫn</p>
                 <form method="GET">
-                    <select name="sortby" id="sortby" class="tutorials-list__select" onchange="submit()">
+                    <select name="sortby" class="tutorials-list__select text-light-black label" onchange="submit()">
                         <option selected="" value="newest"> Mới nhất trước</option>
                         <option value="mostviewed"> Được xem nhiều nhất</option>
                     </select>
                 </form>
             </div>
             <div class="tutorials-list__cards-container">
-                <a href="/" class="tutorials-list__card" data-wpel-link="internal">
-                    <div class="d-flex">
-                        <h3 class="text-center">10 Plugin tạo menu cho WordPress
-                            tốt nhất hiện nay</h3>
+                <a href="/" class="tutorials-list__card d-flex justify-content-between align-items-center"
+                    data-wpel-link="internal">
+                    <div class="d-flex flex-column">
+                        <h3 class="text-left align-items-center">10 Plugin tạo menu cho WordPress tốt nhất hiện nay</h3>
                         <div class="d-flex">
-                            <div class="d-flex">
+                            <div class="d-flex align-items-center margin-right label">
                                 <i class="fas fa-eye" alt="People visited logo"></i>
                                 <p>10N</p>
                             </div>
-                            <div class="d-flex">
+                            <div class="d-flex align-items-center margin-right label">
                                 <i class="far fa-comment-alt-lines" alt="Chat logo"></i>
                                 <p>6k</p>
                             </div>
-                            <p> Bởi Quyết Thắng K.</p>
+                            <p class="margin-bs-be"> Bởi Quyết Thắng K.</p>
                         </div>
                     </div>
-                    <div class="d-flex">
-                        <p class="text-center">Th7 16, 2020</p>
-                        <div class="flex-wrap">
-                            <p class="tutorials-list__category"> Wordpress</p>
-                        </div>
+                    <div class="d-flex align-items-center flex-column date">
+                        <p class="label">Th7 16, 2020</p>
+                        <p class="tutorials-list__category"> Wordpress</p>
                     </div>
                 </a>
-                <a href="/" class="tutorials-list__card" data-wpel-link="internal">
-                    <div class="d-flex">
-                        <h3 class="text-center">10 Plugin tạo menu cho WordPress
-                            tốt nhất hiện nay</h3>
+                <a href="/" class="tutorials-list__card d-flex justify-content-between align-items-center"
+                    data-wpel-link="internal">
+                    <div class="d-flex flex-column">
+                        <h3 class="text-left align-items-center">10 Plugin tạo menu cho WordPress tốt nhất hiện nay</h3>
                         <div class="d-flex">
-                            <div class="d-flex">
+                            <div class="d-flex align-items-center margin-right label">
                                 <i class="fas fa-eye" alt="People visited logo"></i>
                                 <p>10N</p>
                             </div>
-                            <div class="d-flex">
+                            <div class="d-flex align-items-center margin-right label">
                                 <i class="far fa-comment-alt-lines" alt="Chat logo"></i>
                                 <p>6k</p>
                             </div>
-                            <p> Bởi Quyết Thắng K.</p>
+                            <p class="margin-bs-be"> Bởi Quyết Thắng K.</p>
                         </div>
                     </div>
-                    <div class="d-flex">
-                        <p class="text-center">Th7 16, 2020</p>
-                        <div class="flex-wrap">
-                            <p class="tutorials-list__category"> Wordpress</p>
+                    <div class="d-flex align-items-center flex-column date">
+                        <p class="label">Th7 16, 2020</p>
+                        <p class="tutorials-list__category"> Wordpress</p>
+                    </div>
+                </a>
+                <a href="/" class="tutorials-list__card d-flex justify-content-between align-items-center"
+                    data-wpel-link="internal">
+                    <div class="d-flex flex-column">
+                        <h3 class="text-left align-items-center">10 Plugin tạo menu cho WordPress tốt nhất hiện nay</h3>
+                        <div class="d-flex">
+                            <div class="d-flex align-items-center margin-right label">
+                                <i class="fas fa-eye" alt="People visited logo"></i>
+                                <p>10N</p>
+                            </div>
+                            <div class="d-flex align-items-center margin-right label">
+                                <i class="far fa-comment-alt-lines" alt="Chat logo"></i>
+                                <p>6k</p>
+                            </div>
+                            <p class="margin-bs-be"> Bởi Quyết Thắng K.</p>
                         </div>
+                    </div>
+                    <div class="d-flex align-items-center flex-column date">
+                        <p class="label">Th7 16, 2020</p>
+                        <p class="tutorials-list__category"> Wordpress</p>
+                    </div>
+                </a>
+                <a href="/" class="tutorials-list__card d-flex justify-content-between align-items-center"
+                    data-wpel-link="internal">
+                    <div class="d-flex flex-column">
+                        <h3 class="text-left align-items-center">10 Plugin tạo menu cho WordPress tốt nhất hiện nay</h3>
+                        <div class="d-flex">
+                            <div class="d-flex align-items-center margin-right label">
+                                <i class="fas fa-eye" alt="People visited logo"></i>
+                                <p>10N</p>
+                            </div>
+                            <div class="d-flex align-items-center margin-right label">
+                                <i class="far fa-comment-alt-lines" alt="Chat logo"></i>
+                                <p>6k</p>
+                            </div>
+                            <p class="margin-bs-be"> Bởi Quyết Thắng K.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center flex-column date">
+                        <p class="label">Th7 16, 2020</p>
+                        <p class="tutorials-list__category"> Wordpress</p>
+                    </div>
+                </a>
+                <a href="/" class="tutorials-list__card d-flex justify-content-between align-items-center"
+                    data-wpel-link="internal">
+                    <div class="d-flex flex-column">
+                        <h3 class="text-left align-items-center">10 Plugin tạo menu cho WordPress tốt nhất hiện nay</h3>
+                        <div class="d-flex">
+                            <div class="d-flex align-items-center margin-right label">
+                                <i class="fas fa-eye" alt="People visited logo"></i>
+                                <p>10N</p>
+                            </div>
+                            <div class="d-flex align-items-center margin-right label">
+                                <i class="far fa-comment-alt-lines" alt="Chat logo"></i>
+                                <p>6k</p>
+                            </div>
+                            <p class="margin-bs-be"> Bởi Quyết Thắng K.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center flex-column date">
+                        <p class="label">Th7 16, 2020</p>
+                        <p class="tutorials-list__category"> Wordpress</p>
+                    </div>
+                </a>
+                <a href="/" class="tutorials-list__card d-flex justify-content-between align-items-center"
+                    data-wpel-link="internal">
+                    <div class="d-flex flex-column">
+                        <h3 class="text-left align-items-center">10 Plugin tạo menu cho WordPress tốt nhất hiện nay</h3>
+                        <div class="d-flex">
+                            <div class="d-flex align-items-center margin-right label">
+                                <i class="fas fa-eye" alt="People visited logo"></i>
+                                <p>10N</p>
+                            </div>
+                            <div class="d-flex align-items-center margin-right label">
+                                <i class="far fa-comment-alt-lines" alt="Chat logo"></i>
+                                <p>6k</p>
+                            </div>
+                            <p class="margin-bs-be"> Bởi Quyết Thắng K.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center flex-column date">
+                        <p class="label">Th7 16, 2020</p>
+                        <p class="tutorials-list__category"> Wordpress</p>
                     </div>
                 </a>
             </div>
-            <div class="d-flex">
+            <div class="d-flex justify-content-center label position-relative">
                 <span aria-current="page" class="pagination-number pagination-number--active current">1</span>
-                <a class="pagination-number"href="/page/2/" data-wpel-link="internal">2</a>
-                <a class="pagination-number"href="/page/3/" data-wpel-link="internal">3</a>
+                <a class="pagination-number" href="/page/2/" data-wpel-link="internal">2</a>
+                <a class="pagination-number" href="/page/3/" data-wpel-link="internal">3</a>
                 <a class="pagination-number" href="/page/4/" data-wpel-link="internal">4</a>
                 <span class="pagination-number pagination-number--noeffects">…</span>
                 <a class="pagination-number" href="/page/42/" data-wpel-link="internal">42</a>
-                <a class="h-button-primary" href="/page/2/" data-wpel-link="internal">Trang tiếp theo</a>
+                <a class="h-button-primary button text-white position-absolute right-0" href="/page/2/"
+                    data-wpel-link="internal">Trang tiếp theo</a>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container-join">
-            <h2 class="text-white">
-                <b>Tham gia ngay với chúng tôi!</b>
-            </h2>
+    <section class="join-container">
+        <div class="container">
+            <h2 class="text-white">Tham gia ngay với chúng tôi!</h2>
             <div class="button-wrapper">
                 <a class="h-button-red" href="/" data-wpel-link="internal"> BẮT ĐẦU NGAY</a>
             </div>
         </div>
     </section>
     <footer class="footer-new" id="footer">
+        <!-- chú ý id -->
         <div class="container">
             <div class="footer-new__holder">
                 <div class="footer-new-holder__left">
-
                     <div class="footer-new__list">
                         <h5 class="footer-new-list__title">THÔNG TIN</h5>
                         <ul class="footer-new-list__holder">
-                            <li class="footer-new-list-holder__item"> <a href="/" id="hgr-tutorials-footer"
+                            <li class="footer-new-list-holder__item"> <a href="#" id="hgr-tutorials-footer"
                                     data-wpel-link="internal"> Đánh Giá </a></li>
-                            <li class="footer-new-list-holder__item"> <a href="/" id="hgr-tutorials-footer"
+                            <li class="footer-new-list-holder__item"> <a href="#" id="hgr-tutorials-footer"
                                     data-wpel-link="internal"> Đóng góp </a></li>
-                            <li class="footer-new-list-holder__item"> <a href="/" id="hgr-tutorials-footer"
+                            <li class="footer-new-list-holder__item"> <a href="#" id="hgr-tutorials-footer"
                                     data-wpel-link="internal"> YouTube Creators </a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="footer-new-holder__right">
                     <div class="footer-new-holder-right__holder">
-
                         <div class="footer-new-holder-right-holder__socials">
-                            <a href="/" target="_blank" rel="nofollow noopener noreferrer external"
-                                data-wpel-link="external">
-                                <img src="/" alt="Linked-in logo">
+                            <a href="https://www.youtube.com/channel/UC0XOeMMCzHjEFr4aXkxmqzQ?sub_confirmation=1"
+                                target="_blank" rel="nofollow noopener noreferrer external" data-wpel-link="external">
+                                <img src="/Resources/Image/002-youtube.png" alt="YouTube logo">
                             </a>
-                            <a href="/" target="_blank" rel="nofollow noopener noreferrer external"
-                                data-wpel-link="external">
-                                <img src="/" alt="Facebook logo">
+                            <a href="https://www.facebook.com/NQT.hpvn" target="_blank"
+                                rel="nofollow noopener noreferrer external" data-wpel-link="external">
+                                <img src="/Resources/Image/045-facebook.png" alt="Facebook logo">
                             </a>
-                            <a href="/" target="_blank" rel="nofollow noopener noreferrer external"
-                                data-wpel-link="external">
-                                <img src="/" alt="Twitter logo">
+                            <a href="https://twitter.com/quyetthangg" target="_blank"
+                                rel="nofollow noopener noreferrer external" data-wpel-link="external">
+                                <img src="/Resources/Image/013-twitter-1.png" alt="Twitter logo">
                             </a>
-                            <a href="/" data-wpel-link="exclude" target="_blank" rel="noopener noreferrer">
-                                <img src="/" alt="Blog logo"> </a></div>
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDZBVWwQSSpjGcQGQVnxmgNFBKBpsdDZckfWJkWSWszVhDMpRJqPSjNQtCsKwxCBvsfkVzp"
+                                data-wpel-link="exclude" target="_blank" rel="noopener noreferrer">
+                                <img src="/Resources/Image/035-google-plus.png" alt="Blog logo"> </a>
+                        </div>
                     </div>
                     <div class="footer-new-holder-right__links">
                         <div class="footer-new__list">
@@ -301,7 +396,24 @@
                 &copy;2020 TheKsteam.com - Blog Website, chia sẻ kiến thức ngành CNTT . Design by Quyết Thắng
             </div>
         </div>
-    </footer> -->
+    </footer>
+    <script>
+        function myFunction() {
+            document.getElementById("nyDropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropdown-btn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')); {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
