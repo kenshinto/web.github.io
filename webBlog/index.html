@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Vendor/css/grid.css">
     <link rel="stylesheet" href="Resources/CSS/stylesheet.css">
+    <link rel="stylesheet" href="Resources/CSS/queries.css">
 </head>
 
 <body>
@@ -21,12 +22,12 @@
                         <a href="/" class="dropdown-btn">DANH MỤC
                             <i class="fas fa-caret-down"></i>
                         </a>
-                        <div class="dropdown-content">
+                        <!-- <div class="dropdown-content">
                             <ul>
                                 <li>
                                     <a id="file-documents-controler" href="/">
                                         <i class="fal fa-ballot"></i>
-                                        <!-- used febfonts pro-fa-light-300-5.5.0  -->
+                                        used febfonts pro-fa-light-300-5.5.0 
                                         <div class="flex-column d-flex label">
                                             <p class="button fw-700 text-light-black">Chia sẻ tài liệu</p>
                                             <p class="label text-content-grey">IT</p>
@@ -36,7 +37,7 @@
                                 <li>
                                     <a id="file-documents-controler" href="/">
                                         <i class="far fa-clone"></i>
-                                        <!-- used febfonts pro-fa-light-300-5.5.0  -->
+                                        used febfonts pro-fa-light-300-5.5.0 
                                         <div class="flex-column d-flex label">
                                             <p class="button fw-700 text-light-black">Phần mềm</p>
                                             <p class="label text-content-grey">Cho máy tính</p>
@@ -44,7 +45,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </li>
                 <li><a href="#">GIỚI THIỆU</a></li>
@@ -53,7 +54,8 @@
                     <div class="position-relative">
                         <!-- cái này là code phần đăng nhập vào hệ thống bằng cpanel, cần chỉnh lại khi học tới JavaScripts -->
                         <a id="menu-item-cpanel-login" href="/dang-nhap-cpanel" class="hover-opacity-login-style">
-                            <i class="fas fa-lock-alt"></i>ĐĂNG NHẬP
+                            <i class="far fa-lock-alt"></i>ĐĂNG NHẬP
+                            <!-- webfond 5.0.0 -->
                         </a>
                     </div>
                 </li>
@@ -65,14 +67,26 @@
         <!-- <div class="clearfix"></div> -->
         <nav class="submenu-nav">
             <ul>
-                <li><a href="#">BÀI VIẾT</a>
-                    <i class="fas fa-caret-down"></i>
+                <li>
+                    <div class="dropdown">
+                        <a href="/" class="dropdown-btn">BÀI VIẾT
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                    </div>
                 </li>
-                <li><a href="#">THỦ THUẬT PHẦN MỀM</a>
-                    <i class="fas fa-caret-down"></i>
+                <li>
+                    <div class="dropdown">
+                        <a href="/" class="dropdown-btn">THỦ THUẬT PHẦN MỀM
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                    </div>
                 </li>
-                <li><a href="#">TÀI LIỆU</a>
-                    <i class="fas fa-caret-down"></i>
+                <li>
+                    <div class="dropdown">
+                        <a href="/" class="dropdown-btn">TÀI LIỆU
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                    </div>
                 </li>
                 <li><a href="#">THUẬT NGỮ</a></li>
             </ul>
