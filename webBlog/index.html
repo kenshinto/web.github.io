@@ -15,23 +15,23 @@
 <body>
     <header>
         <nav id="main-nav">
-            <div class="navigation-holder align-items-center d-flex w-100 colored pd-t-15 pd-b-15 z-index-200">
+            <div class="navigation-holder justify-content-center d-flex w-100 colored z-index-200">
                 <div class="pd-l-15 pd-r-15 d-flex align-items-center justify-content-between w-100">
                     <div class="d-flex align-items-center">
                         <a href="/"><img class="Logo" src="/Resources/Image/your-logo.png" alt="Logo"></a>
                     </div>
-                    <div class="d-block">
+                    <div class="d-block justify-content-center">
                         <ul>
-                            <li>
+                            <li class="align-items-center">
                                 <div class="dropdown">
-                                    <p class="">Danh mục
+                                    <a class="">DANH MỤC
                                         <i class="fas fa-caret-down"></i>
-                                    </p>
+                                    </a>
                                     <div class="dropdown-content">
                                         <ul>
                                             <li>
                                                 <a class="align-items-center h-70" href="/">
-                                                    <i class="fal fa-ballot"></i>
+                                                    <i class="fal fa-ballot align-items-center"></i>
                                                     <!-- used febfonts pro-fa-light-300-5.5.0  -->
                                                     <div class="content align-items-center">
                                                         <h4 class="">Chia sẻ tài liệu về CNTT fdsfds da fds</h4>
@@ -41,11 +41,11 @@
                                             </li>
                                             <li>
                                                 <a class="align-items-center h-70" href="/">
-                                                    <i class="fal fa-ballot"></i>
+                                                    <i class="far fa-clone align-items-center"></i>
                                                     <!-- used febfonts pro-fa-light-300-5.5.0  -->
                                                     <div class="content align-items-center">
-                                                        <h4 class="">Chia sẻ tài liệu về CNTT fdsfds da fds</h4>
-                                                        <h6 class="">information tenology</h6>
+                                                        <h4 class="">Phần mềm abvfdgh rtyrtyr</h4>
+                                                        <h6 class="">Cho máy tínhsdf sdfsdf s</h6>
                                                     </div>
                                                 </a>
                                             </li>
@@ -63,91 +63,78 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><p class="align-items-center">GIỚI THIỆU</p></li>
-                            <li><p class="align-items-center">LIÊN HỆ</p></li>
+                            <li><a href="#">GIỚI THIỆU</a></li>
+                            <li><a href="#">LIÊN HỆ</a></li>
+                            <li>
+                                <div class="Login">
+                                    <!-- cái này là code sự kiện phần đăng nhập vào hệ thống bằng cpanel, cần chỉnh lại khi học tới JavaScripts -->
+                                    <a id="menu-item-cpanel-login" href="/dang-nhap-cpanel"
+                                        class="hover-opacity-login-style">
+                                        <i class="far fa-lock-alt"></i>ĐĂNG NHẬP
+                                        <!-- webfond 5.0.0 -->
+                                    </a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <!-- <a href="/"><img class="Logo" src="/Resources/Image/your-logo.png" alt="Logo"></a>
-            
-                <ul>
-                    <li>
-                        <div class="dropdown" dropdown="true">
-                            <p class="d-flex align-items-center">DANH MỤC
-                                <i class="fas fa-caret-down"></i>
-                            </p>
-                            <div class="dropdown-content">
-                                <ul>
-                                    <li>
-                                        <a class="align-items-center sub" href="/">
-                                            <i class="fal fa-ballot"></i>
-                                            used febfonts pro-fa-light-300-5.5.0 
-                                            <div class="">
-                                                <p class="">Chia sẻ tài liệu ttxcvdfhu tretrter
-                                                </p>
-                                                <p class="">IT fsedfisdfsdjifjsdifsfsdfsdfsdfsadsd đâsdwadasrewrewr
-                                                    rewrwerewr</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="align-items-center sub" href="/">
-                                            <i class="far fa-clone"></i>
-                                            used febfonts pro-fa-light-300-5.5.0 
-                                            <div class="">
-                                                <p class="">Phần mềm abvfdghrtyrtyr</p>
-                                                <p class="">Cho máy tínhsdf fsdfsd sdfsd fsdfdsf sdfsdf s</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="#">GIỚI THIỆU</a></li>
-                    <li><a href="#">LIÊN HỆ</a></li>
-                    <li class="Login">
-                        <div class="position-relative">
-                            cái này là code phần đăng nhập vào hệ thống bằng cpanel, cần chỉnh lại khi học tới JavaScripts
-                            <a id="menu-item-cpanel-login" href="/dang-nhap-cpanel" class="hover-opacity-login-style">
-                                <i class="far fa-lock-alt"></i>ĐĂNG NHẬP
-                                webfond 5.0.0
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="menu-navigation-media-screen">
+
+            <!-- <div class="menu-navigation-media-screen">
                 <i class="far fa-bars"></i>
             </div> -->
-            <!-- <div class="clearfix"></div> -->
-            <!-- <div class="submain-nav">
-                <ul>
-                    <li>
-                        <div class="dropdown">
-                            <a href="/" class="dropdown-btn">BÀI VIẾT
-                                <i class="fas fa-caret-down"></i>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <a href="/" class="dropdown-btn">THỦ THUẬT PHẦN MỀM
-                                <i class="fas fa-caret-down"></i>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <a href="/" class="dropdown-btn">TÀI LIỆU
-                                <i class="fas fa-caret-down"></i>
-                            </a>
-                        </div>
-                    </li>
-                    <li><a href="#">THUẬT NGỮ</a></li>
-                </ul>
-        </nav> -->
+            
+        </nav>
+        <div class="clearfix"></div>
+        <div class="submain-nav">
+            <div class="pd-l-15 pd-r-15 d-flex align-items-center justify-content-between w-100">
+                <div class="d-block justify-content-center">
+                    <ul>
+                        <li class="align-items-center">
+                            <div class="dropdown">
+                                <a href="/" class="">BÀI VIẾT
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li>
+                                            <a class="align-items-center h-70" href="/">
+                                                <i class="fal fa-ballot align-items-center"></i>
+                                                <!-- used febfonts pro-fa-light-300-5.5.0  -->
+                                                <div class="content align-items-center">
+                                                    <h4 class="">Chia sẻ tài liệu về CNTT fdsfds da fds</h4>
+                                                    <h6 class="">information tenology</h6>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="align-items-center h-70" href="/">
+                                                <i class="far fa-clone align-items-center"></i>
+                                                <!-- used febfonts pro-fa-light-300-5.5.0  -->
+                                                <div class="content align-items-center">
+                                                    <h4 class="">Phần mềm abvfdgh rtyrtyr</h4>
+                                                    <h6 class="">Cho máy tínhsdf sdfsdf s</h6>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="align-items-center h-70" href="/">
+                                                <i class="fal fa-ballot"></i>
+                                                <!-- used febfonts pro-fa-light-300-5.5.0  -->
+                                                <div class="content align-items-center">
+                                                    <h4 class="">Chia sẻ tài liệu về CNTT fdsfds da fds</h4>
+                                                    <h6 class="">information tenology</h6>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <!-- <div class="clearfix"></div> -->
         <div class="search-header">
             <div class="justify-content-center">
@@ -156,7 +143,8 @@
                     <input class="input-search-header" id="s" name="s" type="text" value=" ">
                     <i class="far fa-search"></i>
                     <button type="submit"
-                        class="h-button-red h-button-primary--small button text-white margin-left-15">Tìm kiếm</button>
+                        class="h-button-red h-button-primary--small button text-white margin-left-15">Tìm
+                        kiếm</button>
                 </form>
             </div>
         </div>

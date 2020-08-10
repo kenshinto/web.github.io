@@ -166,7 +166,8 @@ div{
 /* ----------------------------- CODE MAIN NAVIGATION ------------------- */
 /* -------------------------------------------------------------------- */
 .Logo{
-    height: 80px;
+    height: 70px;
+    margin-left: 12rem;
 }
 .navigation-holder {
     min-height: 60px;
@@ -176,7 +177,7 @@ div{
     z-index: 200;
 }
 .colored {
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(103,71,199,1);
     position: fixed;
     padding: 15px 0;
 }
@@ -187,13 +188,13 @@ div{
     padding-left: 15px;
 }
 .pd-r-15{
-    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
 
 .d-block{
-    margin-right: 10rem;
+    margin-right: 11rem;
 }
 .d-block ul{
     overflow: hidden;
@@ -201,8 +202,9 @@ div{
 }
 .d-block li{
     float: left;
-    width: 100px;
+    width: auto;
     height: 50px;
+    margin-right: 20px;
 }
 
 
@@ -214,34 +216,34 @@ div{
 }
 
 .fas.fa-caret-down{
-    /* margin-left: 5px; */
+    margin-left: 5px;
 }
-.fas.fa-lock-alt{
-    /* margin-right: 10px; */
+.far.fa-lock-alt{
+    margin-right: 10px;
 }
-.Login .position-relative{
+.Login{
     border: 1.4px solid #ffffff;
     padding: 6px;
-    border-radius: 5px ;
+    border-radius:5px ;
 }
+
+
+
 
 
 
 .dropdown:hover, .dropdown:focus{
     background-color: #2980b9;
     transition: all .5s;
-    position: relative;
 }
-.dropdown:hover, .dropdown-content{
-    background-color: #2980b9;
-    transition: all .5s;
+.dropdown:hover .dropdown-content{
     display: block;
 }
-.dropdown{
-    display: block;
+.dropdown a{
+    margin: unset;
 }
 .dropdown-content{
-    padding: 10px 25px 25px;
+    padding: 20px 25px 25px;
     position: absolute;
     background-color: #f1f1f1;
     width: 400px;
@@ -253,7 +255,7 @@ div{
 }
 .dropdown-content li{
     width: 350px;
-    height: 70px;
+    height: 65px;
 }
 /*  đây là mũi tên trỏ lên */
 .dropdown-content::before {
@@ -267,7 +269,7 @@ div{
     margin-left: 170px;
 }
 .dropdown-content a{
-    display: flex;
+    display: inline-flex;
     color: #6747C7;
     /* chỉnh cho icon dropdown-content nằm ở giữa */
 }
@@ -301,10 +303,11 @@ div{
 /* ----------------------------- CODE SUBMAIN NAVIGATION ------------------- */
 /* -------------------------------------------------------------------------------------------- */
 .submain-nav{
-    background-color: #4F3AB7;
+    background-color: #e2e1e7;
     width: 100%;
-    height: 65px;
-    /* z-index: 100; */
+    height: 100px;
+    margin-top: 50px;
+    /* z-index: 00; */
 }
 
 .submain-nav ul{
@@ -364,7 +367,7 @@ input {
  } 
 .form-search-input{
     display: flex;
-    margin-left: 29rem;
+    margin-left: 20rem;
     margin-top: 50px;
 }
 .h-button-primary--small {
@@ -377,7 +380,7 @@ input {
     box-shadow: 0 2px 10px 0 rgba(206, 205, 211, 0.3);
     background-color: #ffffff;
     border: 1px solid floralwhite;
-    width: 70vh;
+    width: 80vh;
 }
 /* cần chỉnh ở phần này */
 
