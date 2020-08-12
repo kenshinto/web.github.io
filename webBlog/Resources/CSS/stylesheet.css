@@ -89,7 +89,7 @@ h2.text-center::after{
 }
 h3, h5 {
     /* font-size: 1.8rem; */
-    line-height: 2.4rem;
+    line-height: 1.7rem;
     /* margin-bottom: 0; */
 }
 section{
@@ -128,35 +128,20 @@ div{
 }
 
 
-
-
-
-/* -------------------------------------------------------------------------------------- */
-/* -------------------------------CODE HEADER--------------------------------------- */
-/* -------------------------------------------------------------------------------------- */
-.search-header{
-    background-image: linear-gradient(35deg,rgba(79,58,183,0.9) 45% ,rgba(132, 59, 173,1.0)), url(../IMAGE/abstract-art-artistic-background-1103970.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
-    background-attachment: fixed;
-}
-
-
 /* ----------------------------------------------------------------------- */
 /* ----------------------------- CODE MAIN NAVIGATION ------------------- */
 /* -------------------------------------------------------------------- */
-.main-nav{
-    min-height: 50px;
+#main-nav{
+    min-height: 60px;
     max-width: 100vw;
 }
 .Logo{
-    height: 70px;
+    height: 50px;
     margin-left: 12rem;
 }
 .bg-main-nav {
     background: rgba(103,71,199,1);
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .pd-l-15{
     padding-left: 15px;
@@ -176,14 +161,11 @@ div{
 }
 .d-block li{
     float: left;
-    width: auto;
-    height: 50px;
-    margin-right: 20px;
+    margin-right: 25px;
 }
-
-
-/* -------------------------------------------------------------------------------- */
-/* ------------------------------------------------------------------------------------ */
+.d-block .mg-t-10{
+    margin-top: 10px;
+}
 .fas.fa-caret-down{
     margin-left: 5px;
 }
@@ -197,13 +179,9 @@ div{
 }
 
 
-
-
-
-
 .dropdown:hover, .dropdown:focus{
-    background-color: #2980b9;
     transition: all .5s;
+    padding: 10px 0;
 }
 .dropdown:hover .dropdown-content{
     display: block;
@@ -220,6 +198,7 @@ div{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     margin-left: -150px;
+    margin-top: 10px;
     display: none;
 }
 .dropdown-content li{
@@ -273,19 +252,25 @@ div{
 /* -------------------------------------------------------------------------------------------- */
 #submain-nav{
     width: 100%;
-    z-index: 100;
 }
 .bg{
     background-color: #4F3AB7;
     padding: 15px 0;
     box-shadow: 0px 2px 3px 0px rgba(24, 23, 23, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
 }
-.mg-l-4rem{
-    margin-left: 20rem;
+.mg-4rem{
+    margin: 0 20rem;
 }
 /* ------------------------------------------------------------------------------------ */
-/* ----------------------------- CODE HEADING MAIN ------------------- */
+/* ----------------------------- CODE HEADING MAIN ------------------------------------- */
 /* -------------------------------------------------------------------------------------------- */
+.search-header{
+    background-image: linear-gradient(35deg,rgba(79,58,183,0.9) 45% ,rgba(132, 59, 173,1.0)), url(../IMAGE/abstract-art-artistic-background-1103970.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    background-attachment: fixed;
+}
 h1{
     text-align: center;
     font-size: 300%;
@@ -294,23 +279,6 @@ h1{
     padding-top: 170px;
 }
 
-/* .row{
-    max-width: 1140px;
-    margin: 0 auto;
-} */
-/* .row .heading-main-text{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 40%;
-    left: 50%;
-    text-align: center;
-    width: 1140px;
-} */
-/* chỉnh chữ ở giữa video 13 */
-/* button{
-    overflow: visible;
-    font-family: inherit;
-} */
 input {
     text-rendering: optimizeLegibility;
     word-spacing: normal;
@@ -365,7 +333,7 @@ input {
     max-width: 100%;
     border-radius: 10px;
     border: 2px solid #5a5a5a;
-    height: 200px;
+    height: 210px;
 }
 
 .object-fit-cover{
@@ -373,14 +341,14 @@ input {
 }
 
 .col.span-1-of-3{
-    padding-right: 15px;
-    padding-left: 15px;
-    height: 400px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 430px;
 }
 .box-shadow{
     box-shadow: 5px 5px 5px #e9e9e9;
     filter: blur(-0.3px);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .height-inherit{
     height: inherit;
@@ -401,10 +369,7 @@ input {
     margin-bottom: 1rem;
 }
 .h-mb-3 {
-    margin-bottom: 2rem;
-}
-.height-8rem {
-    height: 2.5rem;
+    margin-bottom: 15px;
 }
 .font-weight-bold {
     font-weight: 600;
@@ -449,7 +414,6 @@ input {
 a, a:hover {
     font-weight: 700;
     color: unset;
-    text-decoration: unset;
 }
 .d-flex{
     display: flex;
@@ -521,7 +485,10 @@ a, a:hover {
 .tutorials-list__category:last-child {
     margin-right: 0;
 }
-
+.fa-eye,
+.fa-comment-alt-lines{
+    margin-right: 0.5rem;
+}
 
 
 
