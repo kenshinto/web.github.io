@@ -173,15 +173,14 @@ div{
     margin-right: 10px;
 }
 .Login{
-    border: 1.4px solid #ffffff;
+    border: 1.4px solid #f1f1f1;
     padding: 6px;
-    border-radius:5px ;
+    border-radius: 2px ;
 }
 
 
 .dropdown:hover, .dropdown:focus{
     transition: all .5s;
-    padding: 10px 0;
 }
 .dropdown:hover .dropdown-content{
     display: block;
@@ -217,7 +216,7 @@ div{
     margin-left: 170px;
 }
 .dropdown-content a{
-    display: inline-flex;
+    display: flex;
     color: #6747C7;
     /* chỉnh cho icon dropdown-content nằm ở giữa */
 }
@@ -412,7 +411,7 @@ input {
     margin-left: auto;
 }
 a, a:hover {
-    font-weight: 700;
+    font-weight: 490;
     color: unset;
 }
 .d-flex{

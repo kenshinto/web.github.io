@@ -21,22 +21,69 @@
                               }
                               }
  /* 20inch 1600x1200*/
-@media only screen and (max-width: 1600px){
-
-}
+/* @media only screen and (max-width: 1600px){
+                              .form-search-input{
+                                                            margin-left: 22rem;
+                                                            }
+} */
  /* 22inch 1680x1050*/
 @media only screen and (max-width: 1680px){
-
+                              .form-search-input{
+                                                            margin-left: 25rem;
+                                                            }
 }
 
 
 /* small tablets to big tablets */
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
+                              html{
+                                                            font-size: 15px;
+                                                            }
+                              .mg-4rem{
+                                                            margin: 0 10rem;
+                                                            }
+                                                            h1{
+                                                                                          padding-top: 6rem;
+                                                                                          }
+                                                                                          .form-search-input{
+                                                                                                                        margin-left: 11rem;
+                                                                                                                        }
+                              .bg-main-nav ul li{
+                                                            display: none;
+                              }
+                              .h-button-primary {
+                                                            padding: 0.3rem 5.2rem;
+                                                            }
+                              .button-wrapper {
+                                                            margin-left: 25rem;
+                                                                                          }
+
 }
 
 
 /* small phone to small tablets*/
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 414px){
+                              html{
+                                                            font-size: 14px;
+                                                            overflow-x: hidden;
+                                                            }
+                              .Logo{
+                                                            margin-left: 20px;
+                                                            height: 45px;
+                              }
+                              .fa-bars{
+                                                            margin-left: rem;
+                              }
+                              .mg-4rem {
+                                                            margin: unset;
+                                                        }
+                              .h-button-primary {
+                                                            padding: 6px 6rem;
+                                                            }
+                              .button-wrapper {
+                                                            margin-left: 5rem;
+                                                                                          }
+
 }
 
 
