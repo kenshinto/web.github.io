@@ -518,6 +518,9 @@ a, a:hover {
 .right-0 {
     right: 0;
 }
+.left-0{
+    left: 0;
+}
 .button {
     font-size: 0.9rem;
     letter-spacing: 0;
