@@ -94,6 +94,8 @@ img {
   height: 78px;
 }
 .logo {
+  height: 50px;
+  width: auto;
 }
 
 .d-block {
